@@ -1,0 +1,56 @@
+/* Graph Container */
+.graph-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  max-width: 900px;
+}
+
+/* SVG Styling */
+svg {
+  display: block;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+/* Line Styling */
+.line {
+  fill: none;
+  stroke-width: 2.5;
+}
+
+.acc-line {
+  stroke: steelblue;
+}
+
+.emg-line {
+  stroke: orange;
+}
+
+/* Axis Styling */
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #bbb;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-size: 12px;
+  fill: #666;
+}
+
+/* Graph Labels */
+.graph-label {
+  font-size: 16px;
+  font-weight: bold;
+  text-anchor: middle;
+  fill: #444;
+}
+

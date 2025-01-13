@@ -1,0 +1,5 @@
+fastapi==0.95.2      # Framework for building APIs
+uvicorn==0.22.0      # ASGI server for running FastAPI
+websockets==11.0.3   # WebSocket support for real-time data
+pydantic==1.10.9     # Data validation and parsing
+bitalino==1.0.0      # BITalino sensor integration (install if using live sensors)
